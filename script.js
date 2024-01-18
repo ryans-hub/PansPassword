@@ -14,7 +14,7 @@ function writePassword() {
 generateBtn.addEventListener("click", writePassword);
 
 //Event listener for generate button, prompts 
-generateBtn.addEventListener("click", generatePassword);
+// generateBtn.addEventListener("click", generatePassword);
 
 //Character Arrays
 var lowerCase = "abcdefghijklmnopqrstuvwxyz".split("");
@@ -63,6 +63,10 @@ function generatePassword() {
   
 
   }
+
+  var passwordString = passwordAr.join("");
+
+  return passwordString;
 
 }
 
